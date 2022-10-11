@@ -51,6 +51,11 @@
   height: 1.25rem;
 }
 
+.Popover {
+  background-color: #313131;
+  border-radius: 5px;
+  padding: 4px
+}
 .CopyButton {
   background-color: transparent;
   width: fit-content;

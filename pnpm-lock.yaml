@@ -7,6 +7,7 @@ specifiers:
   cuid: ^2.1.8
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-tiny-popover: ^7.1.0
   typescript: ^4.6.4
   vite: ^3.1.0
 
@@ -14,6 +15,7 @@ dependencies:
   cuid: 2.1.8
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-tiny-popover: 7.1.0_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   '@types/react': 18.0.21
@@ -792,6 +794,16 @@ packages:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /react-tiny-popover/7.1.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-vlZFs8/uFWwLY+JwXL4Fwjvz+c5rqKUlg5b9UOgc/gJiRdp1lk+FachCdZlDIQwk8UOADMu8YxYp0VV3rXLU9g==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
